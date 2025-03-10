@@ -10,11 +10,11 @@ else:
     min=n1
     if n2>max:
         max=n2
-    else:
+    if n2 < min:
         min=n2
     if n3 > max:
         max=n3
-    else:
+    if n3 < min:
         min=n3
 if stato==False:
     print("Il massimo è",max)
