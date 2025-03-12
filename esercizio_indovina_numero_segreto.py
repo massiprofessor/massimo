@@ -11,8 +11,9 @@ while True:
             print("Troppo basso")
         elif numero ==numero_segreto:
             print("Indovinato")
+			stato=True
             break
-            stato=True
+            
     if stato == True or stato==False:
         break
             
